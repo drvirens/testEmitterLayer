@@ -13,6 +13,7 @@
 		1117DB931FB988B0004D77FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1117DB921FB988B0004D77FA /* Assets.xcassets */; };
 		1117DB961FB988B0004D77FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1117DB941FB988B0004D77FA /* LaunchScreen.storyboard */; };
 		1117DB991FB988B0004D77FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1117DB981FB988B0004D77FA /* main.m */; };
+		1117DBA11FB98C6C004D77FA /* BOEmitterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1117DBA01FB98C6C004D77FA /* BOEmitterView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		1117DB951FB988B0004D77FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1117DB971FB988B0004D77FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1117DB981FB988B0004D77FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1117DB9F1FB98C6C004D77FA /* BOEmitterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BOEmitterView.h; sourceTree = "<group>"; };
+		1117DBA01FB98C6C004D77FA /* BOEmitterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BOEmitterView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				1117DB941FB988B0004D77FA /* LaunchScreen.storyboard */,
 				1117DB971FB988B0004D77FA /* Info.plist */,
 				1117DB981FB988B0004D77FA /* main.m */,
+				1117DB9F1FB98C6C004D77FA /* BOEmitterView.h */,
+				1117DBA01FB98C6C004D77FA /* BOEmitterView.m */,
 			);
 			path = testEmitterLayer;
 			sourceTree = "<group>";
@@ -142,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1117DBA11FB98C6C004D77FA /* BOEmitterView.m in Sources */,
 				1117DB8E1FB988B0004D77FA /* ViewController.m in Sources */,
 				1117DB991FB988B0004D77FA /* main.m in Sources */,
 				1117DB8B1FB988B0004D77FA /* AppDelegate.m in Sources */,
@@ -281,6 +287,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F38H382JLK;
 				INFOPLIST_FILE = testEmitterLayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bovi.polls.testEmitterLayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -295,6 +302,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F38H382JLK;
 				INFOPLIST_FILE = testEmitterLayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bovi.polls.testEmitterLayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
