@@ -10,10 +10,11 @@
 
 
 typedef enum : NSInteger {
-  BOEmitterType_Snow,
-  BOEmitterType_Confetti,
-  BOEmitterType_Fireworks
+    BOEmitterType_Snow,
+    BOEmitterType_Confetti,
+    BOEmitterType_Fireworks
 } BOEmitterType;
+
 
 @interface BOEmitterView : UIView
 - (instancetype)initWithEmitterType:(BOEmitterType)emitterType;
